@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*font-family: 'Roboto', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap');
+/* font-family: 'Baloo 2', cursive; */
+
+*{
+    font-family: 'Baloo 2', cursive;
+
+}
+
+body{
+    background-color: rgb(24, 24, 24);
+}
+
+#conteiner{
+    width: 400px;
+    height:500px;
+    background-color: rgba(0, 85, 57, 0.5);
+    border-radius: 20px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.568);
+}
+
+#display{
+    background-color: rgb(0, 0, 0);
+    margin-top: -25px;
+    border-radius: 20px 20px 0 0;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.num-display{
+    color: white;
+    font-size: 100px;
+    margin: 0;
+    margin-top: 60px;
+}
+
+#btn-conteiner{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.btns{
+    height: 150px;
+    width: 150px;
+    margin: -40 5px 0 5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    font-size: 30px;
+    padding: 0;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.651);
+    background-color: rgba(2, 175, 17, 0.424);
+    transition: 0.2s;
+}
+
+.btns:hover{
+    background-color: rgba(2, 175, 16, 0.767);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#play {
+    font-size: 70px;
+    margin: 5px 0 0 10px;
+}
